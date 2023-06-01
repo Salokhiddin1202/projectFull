@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="430.0" prefWidth="300.0">
+         <children>
+            <AnchorPane prefHeight="500.0" prefWidth="299.0" style="-fx-background-color: #196660;">
+               <children>
+                  <Label layoutX="18.0" layoutY="284.0" prefHeight="40.0" prefWidth="264.0" text="Eshik va Romlar Sotuvda">
+                     <font>
+                        <Font name="Algerian" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="189.0" fitWidth="185.0" layoutX="57.0" layoutY="74.0">
+                     <image>
+                        <Image url="@../../../../../../../../Downloads/icons8-open-door-100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="293.0" prefHeight="500.0" prefWidth="315.0" style="-fx-background-color: #24897b;">
+               <children>
+                  <AnchorPane layoutX="58.0" layoutY="31.0" prefHeight="127.0" prefWidth="206.0">
+                     <children>
+                        <ImageView fitHeight="146.0" fitWidth="185.0" layoutX="37.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="94.0" fitWidth="105.0" layoutX="59.0" opacity="0.91">
+                           <image>
+                              <Image url="@../../../../../../../../../Public/icons8-person-48.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="SW_RESIZE" />
+                           </cursor>
+                        </ImageView>
+                        <Label layoutX="-38.0" layoutY="107.0" prefHeight="30.0" prefWidth="299.0" text="Assalomu Alaykum">
+                           <font>
+                              <Font name="Algerian" size="27.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="80.0" layoutY="164.0" prefHeight="51.0" prefWidth="179.0" text="Mijozimiz">
+                     <font>
+                        <Font name="Arial Black" size="31.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="60.0" layoutY="234.0" onAction="#onBtnlogin" prefHeight="30.0" prefWidth="220.0" promptText="Login" style="-fx-background-radius: 20 20 20 20;">
+                     <font>
+                        <Font name="Algerian" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="59.0" layoutY="291.0" onAction="#onBtnparol" prefHeight="30.0" prefWidth="220.0" promptText="Parol" style="-fx-background-radius: 20 20 20 20;">
+                     <font>
+                        <Font name="Algerian" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="64.0" layoutY="363.0" mnemonicParsing="false" onAction="#onBtnkirish" prefHeight="40.0" prefWidth="210.0" text="Kirish" textFill="#2b3837">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
